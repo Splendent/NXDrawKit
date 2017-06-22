@@ -40,6 +40,8 @@ open class Canvas: UIView, UITableViewDelegate
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        self.path.lineCapStyle = .round
+        self.initialize()
     }
     
     public init(canvasId: String? = nil, backgroundImage image: UIImage? = nil) {
@@ -54,18 +56,31 @@ open class Canvas: UIView, UITableViewDelegate
     }
     
     // MARK: - Private Methods
+    fileprivate func fitSuperView(_ view:UIView ,superView:UIView) {
+        view.translatesAutoresizingMaskIntoConstraints = false
+        let top = NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: superView, attribute: NSLayoutAttribute.top, multiplier: 1, constant: 0)
+        let bot = NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.bottom, relatedBy: NSLayoutRelation.equal, toItem: superView, attribute: NSLayoutAttribute.bottom, multiplier: 1, constant: 0)
+        let lead = NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.leading, relatedBy: NSLayoutRelation.equal, toItem: superView, attribute: NSLayoutAttribute.leading, multiplier: 1, constant: 0)
+        let trail = NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.trailing, relatedBy: NSLayoutRelation.equal, toItem: superView, attribute: NSLayoutAttribute.trailing, multiplier: 1, constant: 0)
+        NSLayoutConstraint.activate([top,bot,lead,trail])
+    }
     fileprivate func initialize() {
         self.backgroundColor = UIColor.white
         
         self.addSubview(self.backgroundImageView)
         self.backgroundImageView.contentMode = .scaleAspectFit
-        self.backgroundImageView.autoresizingMask = [.flexibleHeight ,.flexibleWidth]
+        self.fitSuperView(self.backgroundImageView, superView: self)
+//        self.backgroundImageView.autoresizingMask = [.flexibleHeight ,.flexibleWidth]
         
         self.addSubview(self.mainImageView)
-        self.mainImageView.autoresizingMask = [.flexibleHeight ,.flexibleWidth]
+        self.mainImageView.contentMode = .scaleAspectFit
+        self.fitSuperView(self.mainImageView, superView: self)
+//        self.mainImageView.autoresizingMask = [.flexibleHeight ,.flexibleWidth]
 
         self.addSubview(self.tempImageView)
-        self.tempImageView.autoresizingMask = [.flexibleHeight ,.flexibleWidth]
+        self.tempImageView.contentMode = .scaleAspectFit
+        self.fitSuperView(self.tempImageView, superView: self)
+//        self.tempImageView.autoresizingMask = [.flexibleHeight ,.flexibleWidth]
     }
     
     fileprivate func compare(_ image1: UIImage?, isEqualTo image2: UIImage?) -> Bool {
