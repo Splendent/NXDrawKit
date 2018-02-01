@@ -1,4 +1,6 @@
 
+This is modded version which uses auto-layout and supports swift 3 only
+=========
 <p align="center">
   <img src="images/logo.jpg"/>
 </p>
