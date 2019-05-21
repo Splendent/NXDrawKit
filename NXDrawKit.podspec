@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NXDrawKit'
-  s.version          = '0.8.0'
+  s.version          = '0.8.0-sp.1'
   s.summary          = 'NXDrawKit is a simple and easy but useful drawing kit for iPhone'
   s.description      = 'NXDrawKit is a set of classes designed to use drawable view easily.'
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Nicejinux' => 'nicejinux@gmail.com' }
-  s.source           = { :git => 'https://github.com/nicejinux/NXDrawKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Splendent/NXDrawKit.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/nicejinux'
 
   s.ios.deployment_target = '8.0'

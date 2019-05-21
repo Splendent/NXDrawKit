@@ -1,5 +1,5 @@
 
-This is modded version which uses auto-layout and supports swift 3 only
+This is modded version which uses auto-layout and supports swift 5 only
 =========
 <p align="center">
   <img src="images/logo.jpg"/>
