@@ -8,8 +8,8 @@
 
 import UIKit
 
-@objc public protocol CanvasDelegate
-{
+
+@objc public protocol CanvasDelegate {
     @objc optional func canvas(_ canvas: Canvas, didUpdateDrawing drawing: Drawing, mergedImage image: UIImage?)
     @objc optional func canvas(_ canvas: Canvas, didSaveDrawing drawing: Drawing, mergedImage image: UIImage?)
     
@@ -17,34 +17,35 @@ import UIKit
 }
 
 
-open class Canvas: UIView, UITableViewDelegate
-{
-    open weak var delegate: CanvasDelegate?
+open class Canvas: UIView, UITableViewDelegate {
+    @objc open weak var delegate: CanvasDelegate?
     
-    fileprivate var canvasId: String?
+    private var canvasId: String?
     
-    fileprivate var mainImageView = UIImageView()
-    fileprivate var tempImageView = UIImageView()
-    fileprivate var backgroundImageView = UIImageView()
+    private var mainImageView = UIImageView()
+    private var tempImageView = UIImageView()
+    private var backgroundImageView = UIImageView()
     
-    fileprivate var brush = Brush()
-    fileprivate let session = Session()
-    fileprivate var drawing = Drawing()
-    fileprivate let path = UIBezierPath()
-    fileprivate let scale = UIScreen.main.scale
+    private var brush = Brush()
+    private let session = Session()
+    private var drawing = Drawing()
+    private let path = UIBezierPath()
+    private let scale = UIScreen.main.scale
 
-    fileprivate var saved = false
-    fileprivate var pointMoved = false
-    fileprivate var pointIndex = 0
-    fileprivate var points = [CGPoint?](repeating: CGPoint.zero, count: 5)
+    private var saved = false
+    private var pointMoved = false
+    private var pointIndex = 0
+    private var points = [CGPoint?](repeating: CGPoint.zero, count: 5)
     
+    
+    // MARK: - Initializers
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.path.lineCapStyle = .round
         self.initialize()
     }
     
-    public init(canvasId: String? = nil, backgroundImage image: UIImage? = nil) {
+    @objc public init(canvasId: String? = nil, backgroundImage image: UIImage? = nil) {
         super.init(frame: CGRect.zero)
         self.path.lineCapStyle = .round
         self.canvasId = canvasId
@@ -58,10 +59,10 @@ open class Canvas: UIView, UITableViewDelegate
     // MARK: - Private Methods
     fileprivate func fitSuperView(_ view:UIView ,superView:UIView) {
         view.translatesAutoresizingMaskIntoConstraints = false
-        let top = NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: superView, attribute: NSLayoutAttribute.top, multiplier: 1, constant: 0)
-        let bot = NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.bottom, relatedBy: NSLayoutRelation.equal, toItem: superView, attribute: NSLayoutAttribute.bottom, multiplier: 1, constant: 0)
-        let lead = NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.leading, relatedBy: NSLayoutRelation.equal, toItem: superView, attribute: NSLayoutAttribute.leading, multiplier: 1, constant: 0)
-        let trail = NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.trailing, relatedBy: NSLayoutRelation.equal, toItem: superView, attribute: NSLayoutAttribute.trailing, multiplier: 1, constant: 0)
+        let top = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.top, relatedBy: NSLayoutConstraint.Relation.equal, toItem: superView, attribute: NSLayoutConstraint.Attribute.top, multiplier: 1, constant: 0)
+        let bot = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.bottom, relatedBy: NSLayoutConstraint.Relation.equal, toItem: superView, attribute: NSLayoutConstraint.Attribute.bottom, multiplier: 1, constant: 0)
+        let lead = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.leading, relatedBy: NSLayoutConstraint.Relation.equal, toItem: superView, attribute: NSLayoutConstraint.Attribute.leading, multiplier: 1, constant: 0)
+        let trail = NSLayoutConstraint(item: view, attribute: NSLayoutConstraint.Attribute.trailing, relatedBy: NSLayoutConstraint.Relation.equal, toItem: superView, attribute: NSLayoutConstraint.Attribute.trailing, multiplier: 1, constant: 0)
         NSLayoutConstraint.activate([top,bot,lead,trail])
     }
     fileprivate func initialize() {
@@ -81,52 +82,6 @@ open class Canvas: UIView, UITableViewDelegate
         self.tempImageView.contentMode = .scaleAspectFit
         self.fitSuperView(self.tempImageView, superView: self)
 //        self.tempImageView.autoresizingMask = [.flexibleHeight ,.flexibleWidth]
-    }
-    
-    fileprivate func compare(_ image1: UIImage?, isEqualTo image2: UIImage?) -> Bool {
-        if (image1 == nil && image2 == nil) {
-            return true
-        } else if (image1 == nil || image2 == nil) {
-            return false
-        }
-        
-        let data1 = UIImagePNGRepresentation(image1!)
-        let data2 = UIImagePNGRepresentation(image2!)
-
-        if (data1 == nil || data2 == nil) {
-            return false
-        }
-
-        return (data1! == data2)
-    }
-    
-    fileprivate func currentDrawing() -> Drawing {
-        return Drawing(stroke: self.mainImageView.image, background: self.backgroundImageView.image)
-    }
-    
-    fileprivate func updateByLastSession() {
-        let lastSession = self.session.lastSession()
-        self.mainImageView.image = lastSession?.stroke
-        self.backgroundImageView.image = lastSession?.background
-    }
-    
-    fileprivate func didUpdateCanvas() {
-        let mergedImage = self.mergePathsAndImages()
-        let currentDrawing = self.currentDrawing()
-        self.delegate?.canvas?(self, didUpdateDrawing: currentDrawing, mergedImage: mergedImage)
-    }
-    
-    fileprivate func didSaveCanvas() {
-        let mergedImage = self.mergePathsAndImages()
-        self.delegate?.canvas?(self, didSaveDrawing: self.drawing, mergedImage: mergedImage)
-    }
-    
-    fileprivate func isStrokeEqual() -> Bool {
-        return self.compare(self.drawing.stroke, isEqualTo: self.mainImageView.image)
-    }
-    
-    fileprivate func isBackgroundEqual() -> Bool {
-        return self.compare(self.drawing.background, isEqualTo: self.backgroundImageView.image)
     }
     
 
@@ -190,7 +145,55 @@ open class Canvas: UIView, UITableViewDelegate
         self.pointIndex = 0
     }
     
-    fileprivate func strokePath() {
+    
+    // MARK: - Private Methods
+    private func compare(_ image1: UIImage?, isEqualTo image2: UIImage?) -> Bool {
+        if (image1 == nil && image2 == nil) {
+            return true
+        } else if (image1 == nil || image2 == nil) {
+            return false
+        }
+        
+        let data1 = image1!.pngData()
+        let data2 = image2!.pngData()
+        
+        if (data1 == nil || data2 == nil) {
+            return false
+        }
+        
+        return (data1! == data2)
+    }
+    
+    private func currentDrawing() -> Drawing {
+        return Drawing(stroke: self.mainImageView.image, background: self.backgroundImageView.image)
+    }
+    
+    private func updateByLastSession() {
+        let lastSession = self.session.lastSession()
+        self.mainImageView.image = lastSession?.stroke
+        self.backgroundImageView.image = lastSession?.background
+    }
+    
+    private func didUpdateCanvas() {
+        let mergedImage = self.mergePathsAndImages()
+        let currentDrawing = self.currentDrawing()
+        self.delegate?.canvas?(self, didUpdateDrawing: currentDrawing, mergedImage: mergedImage)
+    }
+    
+    private func didSaveCanvas() {
+        let mergedImage = self.mergePathsAndImages()
+        self.delegate?.canvas?(self, didSaveDrawing: self.drawing, mergedImage: mergedImage)
+    }
+    
+    private func isStrokeEqual() -> Bool {
+        return self.compare(self.drawing.stroke, isEqualTo: self.mainImageView.image)
+    }
+    
+    private func isBackgroundEqual() -> Bool {
+        return self.compare(self.drawing.background, isEqualTo: self.backgroundImageView.image)
+    }
+    
+    private func strokePath() {
         UIGraphicsBeginImageContextWithOptions(self.frame.size, false, 0)
         
         self.path.lineWidth = (self.brush.width / self.scale)
@@ -209,7 +212,7 @@ open class Canvas: UIView, UITableViewDelegate
         UIGraphicsEndImageContext()
     }
     
-    fileprivate func mergePaths() {
+    private func mergePaths() {
         UIGraphicsBeginImageContextWithOptions(self.frame.size, false, 0)
         
         self.mainImageView.image?.draw(in: self.bounds)
@@ -222,7 +225,7 @@ open class Canvas: UIView, UITableViewDelegate
         UIGraphicsEndImageContext()
     }
     
-    fileprivate func mergePathsAndImages() -> UIImage {
+    private func mergePathsAndImages() -> UIImage {
         UIGraphicsBeginImageContextWithOptions(self.frame.size, false, 0)
         
         if self.backgroundImageView.image != nil {
@@ -239,7 +242,7 @@ open class Canvas: UIView, UITableViewDelegate
         return mergedImage!
     }
     
-    fileprivate func centeredBackgroundImageRect() -> CGRect {
+    private func centeredBackgroundImageRect() -> CGRect {
         if self.frame.size.equalTo((self.backgroundImageView.image?.size)!) {
             return self.frame
         }
@@ -271,54 +274,54 @@ open class Canvas: UIView, UITableViewDelegate
     
     
     // MARK: - Public Methods
-    open func update(_ backgroundImage: UIImage?) {
+    @objc open func update(_ backgroundImage: UIImage?) {
         self.backgroundImageView.image = backgroundImage
         self.session.append(self.currentDrawing())
         self.saved = self.canSave()
         self.didUpdateCanvas()
     }
     
-    open func undo() {
+    @objc open func undo() {
         self.session.undo()
         self.updateByLastSession()
         self.saved = self.canSave()
         self.didUpdateCanvas()
     }
 
-    open func redo() {
+    @objc open func redo() {
         self.session.redo()
         self.updateByLastSession()
         self.saved = self.canSave()
         self.didUpdateCanvas()
     }
     
-    open func clear() {
+    @objc open func clear() {
         self.session.clear()
         self.updateByLastSession()
         self.saved = true
         self.didUpdateCanvas()
     }
     
-    open func save() {
+    @objc open func save() {
         self.drawing.stroke = self.mainImageView.image?.copy() as? UIImage
         self.drawing.background = self.backgroundImageView.image
         self.saved = true
         self.didSaveCanvas()
     }
     
-    open func canUndo() -> Bool {
+    @objc open func canUndo() -> Bool {
         return self.session.canUndo()
     }
 
-    open func canRedo() -> Bool {
+    @objc open func canRedo() -> Bool {
         return self.session.canRedo()
     }
 
-    open func canClear() -> Bool {
+    @objc open func canClear() -> Bool {
         return self.session.canReset()
     }
 
-    open func canSave() -> Bool {
+    @objc open func canSave() -> Bool {
         return !(self.isStrokeEqual() && self.isBackgroundEqual())
     }
 }

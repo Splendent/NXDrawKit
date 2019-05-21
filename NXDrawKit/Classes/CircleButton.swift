@@ -8,9 +8,9 @@
 
 import UIKit
 
-class CircleButton: UIButton
-{
-    var color: UIColor!
+
+class CircleButton: UIButton {
+    @objc var color: UIColor!
     var opacity: CGFloat!
     var diameter: CGFloat!
     override var isSelected: Bool {
@@ -32,8 +32,9 @@ class CircleButton: UIButton
         }
     }
     
-    // MARK: - Public Methods
-    init(diameter: CGFloat, color: UIColor, opacity: CGFloat) {
+    
+    // MARK: - Initializer
+    @objc init(diameter: CGFloat, color: UIColor, opacity: CGFloat) {
         super.init(frame: CGRect.init(x: 0, y: 0, width: diameter, height: diameter))
         self.initialize(diameter, color: color, opacity: opacity)
     }
@@ -42,14 +43,7 @@ class CircleButton: UIButton
         super.init(coder: aDecoder)
     }
 
-    internal func update(_ color: UIColor) {
-        self.color = color
-        self.isSelected = super.isSelected
-        self.backgroundColor = color.withAlphaComponent(self.opacity!)
-    }
-
-    // MARK: - Private Methods
-    fileprivate func initialize(_ diameter: CGFloat, color: UIColor, opacity: CGFloat) {
+    private func initialize(_ diameter: CGFloat, color: UIColor, opacity: CGFloat) {
         self.color = color
         self.opacity = opacity
         self.diameter = diameter
@@ -60,11 +54,21 @@ class CircleButton: UIButton
         self.backgroundColor = color.withAlphaComponent(opacity)
         
         if self.color.isEqual(UIColor.clear) {
-            self.setBackgroundImage(self.image("icon_eraser"), for: UIControlState())
+            self.setBackgroundImage(self.image("icon_eraser"), for: UIControl.State())
         }
     }
     
-    fileprivate func image(_ name: String) -> UIImage? {
+
+    // MARK: - Internal Methods
+    @objc internal func update(_ color: UIColor) {
+        self.color = color
+        self.isSelected = super.isSelected
+        self.backgroundColor = color.withAlphaComponent(self.opacity!)
+    }
+    
+
+    // MARK: - Private Methods
+    private func image(_ name: String) -> UIImage? {
         let podBundle = Bundle(for: self.classForCoder)
         if let bundleURL = podBundle.url(forResource: "NXDrawKit", withExtension: "bundle") {
             if let bundle = Bundle(url: bundleURL) {
@@ -74,5 +78,4 @@ class CircleButton: UIButton
         }
         return nil
     }
-    
 }

@@ -8,57 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		0209CA472310CCA27B1A1CA78169BF70 /* CGGeometry+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = 164148AC5CBC8D9E05C8CAD6A7FB31B2 /* CGGeometry+RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C6514310B74E7A2F587D15AEB99DCD4 /* icon_eraser@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B7579A3DB85BED57B300CDBAE756CE0 /* icon_eraser@3x.png */; };
-		1B84A4F5A1D2359F0506ED3D65C24283 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E628DB9B88E513228B873948F5CA1 /* CircleButton.swift */; };
-		1E612DB8B5F04561FBBF6476A3D25181 /* RSKImageCropper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D239088A468E879EFC6B5E161B6DF0E /* RSKImageCropper-dummy.m */; };
+		0F50DC00C892857D68EDA9BB96048709 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9174335755DCC1A8F75B149DFF8D7D47 /* Canvas.swift */; };
+		1E612DB8B5F04561FBBF6476A3D25181 /* RSKImageCropper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9055554F67ADB0152CA9293CB7BC9248 /* RSKImageCropper-dummy.m */; };
 		1F21EF373763D954369546220F6344AA /* RSKInternalUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D3DF1D271E33D7EA0B959172C3F7A0 /* RSKInternalUtility.m */; };
-		2F4DC8934A8D30A1CB55738EED837152 /* icon_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2538876E1BD56A1246F064F321258CCA /* icon_camera@3x.png */; };
+		202B9986A211949E18BD6D2F4D16E4A3 /* UIViewFrameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6739B586490A4CCEEFD3654FD28263D /* UIViewFrameExtension.swift */; };
+		26A4F30DD251E0F74B3E9970F60867D8 /* icon_redo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA30D39744B1C00359D0C10938A3A70 /* icon_redo.png */; };
+		2728B29E6CA3C4BC30E4266D1C58CFC9 /* icon_eraser@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62B7367CC91B0FE368CA87B2CFB2F432 /* icon_eraser@3x.png */; };
 		2FB9029D8492D311B5C3CF097F69B6FC /* RSKInternalUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7D63244346552535B460E9A773A590 /* RSKInternalUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		335AEA5570591378D70EC20A6A5C1590 /* UIImage+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = BE370117A29C46B86AABBB60D8168659 /* UIImage+RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33B9BACCC2529B6C8CD2C1BE2C2EDBFE /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368324FAE87D9B3473F2538EE83544EF /* Canvas.swift */; };
+		33E4C1424853BCBD8F3E05FFCC8EDDCF /* UIImageExtractExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C2786BCEBC49354A813A2A980F421 /* UIImageExtractExtension.swift */; };
+		3984D01F202D5DA5654E546AF2E97788 /* icon_eraser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC7A08F00D497762ECE29EB94FC5BF3 /* icon_eraser@2x.png */; };
+		3D388607C356EFD7AEB04FFA1D0A0F48 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D539D855D883C779A5EA0866FAE976 /* CircleButton.swift */; };
 		3D47CF6EF8006B390EAFD75C8C77D1D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
-		40344A6436EC65514A0931B7973D478D /* icon_undo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39992B3451045CCDE78727065EDC3F97 /* icon_undo@3x.png */; };
-		50D9715E331A427F7F2EF8B3CB443D11 /* icon_redo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA5FFE0F79C9FD78AD3BF8EE56BDB9F /* icon_redo@2x.png */; };
+		518816CD4AD0666D48852F283C391121 /* icon_undo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D142EBBFA0F4DFF4D9096CE56BAE8AF8 /* icon_undo@3x.png */; };
 		51C07EF6BE77E60016AD4E2B3C2184F9 /* RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B93E8455A9442AB1F6AAEEBFA9DFCB /* RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52EF59E36C96AA18E6CD4C83C40993F1 /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2238EC2CC2DC66C32E004CFDA7D844 /* ToolBar.swift */; };
 		53068B8A05ABE424C9E43F96D19CAE09 /* RSKImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CF56D00427E1572734D2237B188FE3 /* RSKImageScrollView.m */; };
 		565DE981B6C4F2E3D83CB7826BB29918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		58CC19B2785918249756C32D1878366D /* NXDrawKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7163606E4A5340FA22A9206D3A2174EA /* NXDrawKit-dummy.m */; };
 		5BE4F670AFCC8BF919C4EBB7746466A2 /* RSKImageCropViewController+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = D64D9C3FF4F7F5345FCE4CCDABEAE773 /* RSKImageCropViewController+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FD4B223639CE2A5CBDFB10F55205952 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */; };
 		63E9E0482D1E1207508A348275C58B0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
 		66C7E2FB426ACD43DAC0703D9A3C0041 /* CGGeometry+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = F21B1A97B7477503A5B29956675CC268 /* CGGeometry+RSKImageCropper.m */; };
-		6B5D60D2A4F5B6B32951ECD480062D8E /* icon_eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B7D3F483D38D79D2C02C733EF2312F9 /* icon_eraser.png */; };
-		6C148F11E6F29172F5A0C45C42DC1B3A /* Pods-NXDrawKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C408EEB5678B0F9375A3C35F4AF4406 /* Pods-NXDrawKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FEB93DFE3C963ABDF2C16ACB3C53740 /* RSKTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D97042A931396E7F0C53967C8D4B35D /* RSKTouchView.m */; };
-		701ABCBDF80E55FDEBAE6C8E953FBEB5 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD6CC0FF7373DA645732B29D6FEF95F /* Drawing.swift */; };
-		7D4E2744CA8D9DDF1DF7D74D2975B409 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353641D057B902A335D510BB66FD3D3 /* Session.swift */; };
+		78421F58DBDE4CE213ECC68C4B4E8F6C /* icon_undo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACC586E2E7FA966C3A93D17ACCE6F97 /* icon_undo@2x.png */; };
+		80A8AACC1D8B3A5EC188CE92953AE9BB /* icon_eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 131C02B2E2330B37F1D9643B0EC2B7C4 /* icon_eraser.png */; };
+		84E6B61C51E37670179A83D17BB53709 /* NXDrawKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7348A7940E657F8E3C1087BE4B4B9DE3 /* NXDrawKit.bundle */; };
 		878D41199B09867524969DB7CBE43626 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3917A50EB224EEDBC66971700D698782 /* UIKit.framework */; };
+		8A46CC9FA5809A33DF487AF4711FF030 /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FA5B0D09C0F32A38A0F35169A5B59 /* ToolBar.swift */; };
+		938B2A4A097355181A9A87C0D8FF01D1 /* icon_redo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D85309576602043700424C824B49C7 /* icon_redo@3x.png */; };
 		968FD3B4F357C2299A180CCEE9BEB95C /* RSKTouchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7230BE46E634A1B17554C4E39EF6DF75 /* RSKTouchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B97F68E41154F4BA0B58A62529735A6 /* UIImage+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A569B42DCB8D90A811229B40F4F9C /* UIImage+RSKImageCropper.m */; };
-		9BCFC2A1B2CE99DF632B0417D9AE6569 /* Brush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9152448B7312F20AE427996CEC2BCD7B /* Brush.swift */; };
+		9C440742F0883ACA2FB066515F3E3B48 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42CF7FA562B1426B8B75342F8C38A2A /* Palette.swift */; };
+		9F8ADD4D0B3C0DCC6DE13105AE3F0398 /* icon_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F5C14B18895EE9278C1A06844963EC /* icon_camera@3x.png */; };
 		9FB73EFC381F536C9BAFD5CFA6E49E98 /* UIApplication+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E53C3B211B22377A53E579623138A7 /* UIApplication+RSKImageCropper.m */; };
-		AA1BD207F803CB6DDE40C65B0EDEB5F6 /* icon_redo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C236002E529018628B2B73F733C60CA8 /* icon_redo@3x.png */; };
-		AE19456F941F014E38F300C9242A5B42 /* Pods-NXDrawKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619E406981BA3A545C8805775E04820 /* Pods-NXDrawKit_Example-dummy.m */; };
+		9FFDED5A12D58BD4E789198E3AEA182A /* icon_redo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8633499BB597A06BB83743F73497AA9 /* icon_redo@2x.png */; };
+		A302BAB407EBC96DB1D1F1CDD27AAFD9 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C650E63ABE520E5887A5391F0E6D0EAB /* Session.swift */; };
+		AE19456F941F014E38F300C9242A5B42 /* Pods-NXDrawKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E00AD7701954F0FABA0B60E73E034 /* Pods-NXDrawKit_Example-dummy.m */; };
 		AF5C2EB296C93FC4F67C0473D8851934 /* RSKImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9812F1122D62B845F8C61F8D64EC43E8 /* RSKImageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B45869D25A977C21888250EE9BE26AAD /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751B987E8B08E431082465A258582F7 /* Palette.swift */; };
+		B598E04D6EEAFE60D500D86516DA268C /* icon_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA494759FE749853A23CBB2360A2B3F7 /* icon_camera@2x.png */; };
 		B6067F8589083E42951FA32F5F0AFA60 /* RSKImageCropperStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04E40A1A1FCFFDB13493F9937D0F6722 /* RSKImageCropperStrings.bundle */; };
-		B6E4D11C87EA406FCF0B94ABEAD34974 /* NXDrawKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 76307416F042AC64F57DF2CE0BAE8AD3 /* NXDrawKit.bundle */; };
-		BA4933770AC2FCBB1EB4FAB0C56AAF5D /* icon_undo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6766E0A867A6B53C46676BA7A00CE546 /* icon_undo.png */; };
 		BB37E4FFFA652F77959775CD77E4A3AF /* RSKImageCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2FB774871F657BAF893A2F6CC1BD2F /* RSKImageCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1F7C43A8D3581791D5A5C7983BC33B1 /* Pods-NXDrawKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2D3F01670BDD80A830264D58FCFE5B /* Pods-NXDrawKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2B7481A0911B3605F3872B524F5297A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
-		C672CABB77E95D8C811A18B42AC53F55 /* UIViewFrameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB273C8605E61860E22C68598D6A3CE /* UIViewFrameExtension.swift */; };
-		C780C91403A661E1175A2E3105CEC3BE /* icon_eraser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631021A505BD67A497DDB941FF000134 /* icon_eraser@2x.png */; };
-		D5981BDC79D6BE21F75960BFF5D8A034 /* NXDrawKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4EAEA497CA4360310AE686C1CDACD1 /* NXDrawKit-dummy.m */; };
-		D668361FDBAA342113C5800ED1859B2B /* icon_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 359B27E3BCF6BEDFDA98B8F66611EE21 /* icon_camera@2x.png */; };
-		D8E05EE1E8897C3A98A2516CFA7941E0 /* icon_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 14453488DF99AC51674A926B991D9437 /* icon_camera.png */; };
+		C1F7C43A8D3581791D5A5C7983BC33B1 /* Pods-NXDrawKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6476230B53890344C940654AD7492361 /* Pods-NXDrawKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1DDACABCABD6EB608C2F4164CF5E1E8 /* Brush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC44B6618E78CE6029FE6C93B8C1B9A /* Brush.swift */; };
 		E4D29715A3EC84EB1FB04E1EDA7AF957 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3917A50EB224EEDBC66971700D698782 /* UIKit.framework */; };
-		E796BA38D67947C81FF628595B7E58E8 /* icon_undo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A78A15ECB0107CF73F5DBA5D0320178E /* icon_undo@2x.png */; };
-		EFCA85A14B25B60542AC8A7E9BD122E3 /* UIImageExtractExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7405D6FA68E8431A288A4337AD959E48 /* UIImageExtractExtension.swift */; };
-		F1E8F30FB698F06C370195BE3C051C68 /* Pods-NXDrawKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCFA10F72125F8B23691E31395565FA /* Pods-NXDrawKit_Tests-dummy.m */; };
+		E6DD97B7257DBE78A5FC516D5E3134B6 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95647797A0A438052A9B5BAAEEB3853F /* Drawing.swift */; };
+		F20FBB15083EE69D3DC2AF9508455450 /* icon_undo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5A9A6C86E044F6D24C3A261F055933 /* icon_undo.png */; };
 		F25FDA72063EC6D951FB6FC73B1A8DEF /* RSKImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F638939FBC3AFABBC825EB50A8B2FA /* RSKImageCropViewController.m */; };
-		F4351ADAF83439BF860D92424FA2FF20 /* icon_redo.png in Resources */ = {isa = PBXBuildFile; fileRef = F5831DD89269FDADD36EDA557A0C9A83 /* icon_redo.png */; };
-		F73E4018EF20B476026707571F8EE8AC /* NXDrawKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A714CED5FE4F8DF4FCFB8F4DCB0D4596 /* NXDrawKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F73E4018EF20B476026707571F8EE8AC /* NXDrawKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D3A24D9708002573CC6DB3EAC3C1E4 /* NXDrawKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9EA06D40CED24353D360C84483E9366 /* icon_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F367959ED648CEB38FA8652A736A238 /* icon_camera.png */; };
 		FF06229695BF90B78452EA772C500E62 /* UIApplication+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CCCBEEEE8F602FA4FAB2C39F1B1793 /* UIApplication+RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -87,85 +84,77 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		028AC85DDEF91F295708B4C47BF54E8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04624B598009CCB57EF1AE1377B4CD7B /* Pods-NXDrawKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NXDrawKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		04E40A1A1FCFFDB13493F9937D0F6722 /* RSKImageCropperStrings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RSKImageCropperStrings.bundle; path = RSKImageCropper/RSKImageCropperStrings.bundle; sourceTree = "<group>"; };
-		0C2D3F01670BDD80A830264D58FCFE5B /* Pods-NXDrawKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NXDrawKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		0D239088A468E879EFC6B5E161B6DF0E /* RSKImageCropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSKImageCropper-dummy.m"; sourceTree = "<group>"; };
-		0D4EAEA497CA4360310AE686C1CDACD1 /* NXDrawKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NXDrawKit-dummy.m"; sourceTree = "<group>"; };
-		0FD6CC0FF7373DA645732B29D6FEF95F /* Drawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
-		14453488DF99AC51674A926B991D9437 /* icon_camera.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_camera.png; sourceTree = "<group>"; };
+		065C39F339ECC178EC7AF620E80D71A2 /* RSKImageCropper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSKImageCropper.modulemap; sourceTree = "<group>"; };
+		0B4965A71A75EBEFA6D145CAA3060EA4 /* Pods-NXDrawKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NXDrawKit_Example-resources.sh"; sourceTree = "<group>"; };
+		0B6FA5B0D09C0F32A38A0F35169A5B59 /* ToolBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolBar.swift; path = NXDrawKit/Classes/ToolBar.swift; sourceTree = "<group>"; };
+		0C0EE69986F5ED7ACC1252DDB9CC4C07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0EA253187D4C2329172C1BC806AB7D71 /* NXDrawKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = NXDrawKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		131C02B2E2330B37F1D9643B0EC2B7C4 /* icon_eraser.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_eraser.png; path = NXDrawKit/Assets/icon_eraser.png; sourceTree = "<group>"; };
+		14A1E80F10CD6FCE96941040AC34E693 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F5C14B18895EE9278C1A06844963EC /* icon_camera@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_camera@3x.png"; path = "NXDrawKit/Assets/icon_camera@3x.png"; sourceTree = "<group>"; };
 		164148AC5CBC8D9E05C8CAD6A7FB31B2 /* CGGeometry+RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGGeometry+RSKImageCropper.h"; path = "RSKImageCropper/CGGeometry+RSKImageCropper.h"; sourceTree = "<group>"; };
-		1DC297C6D85459EAE8A367417130BFE8 /* Pods-NXDrawKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NXDrawKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		218E628DB9B88E513228B873948F5CA1 /* CircleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		1742832797CE22D7FDA1DBD93457EF8C /* RSKImageCropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSKImageCropper-prefix.pch"; sourceTree = "<group>"; };
 		24E53C3B211B22377A53E579623138A7 /* UIApplication+RSKImageCropper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+RSKImageCropper.m"; path = "RSKImageCropper/UIApplication+RSKImageCropper.m"; sourceTree = "<group>"; };
-		2538876E1BD56A1246F064F321258CCA /* icon_camera@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_camera@3x.png"; sourceTree = "<group>"; };
-		25DD0853A97BB5B16E43E3E4C51A6F12 /* Pods-NXDrawKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NXDrawKit_Example-resources.sh"; sourceTree = "<group>"; };
-		2619E406981BA3A545C8805775E04820 /* Pods-NXDrawKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NXDrawKit_Example-dummy.m"; sourceTree = "<group>"; };
+		27FEDDB03A7F13BA9B253EEB96636C12 /* Pods_NXDrawKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NXDrawKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D97042A931396E7F0C53967C8D4B35D /* RSKTouchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKTouchView.m; path = RSKImageCropper/RSKTouchView.m; sourceTree = "<group>"; };
 		33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		359B27E3BCF6BEDFDA98B8F66611EE21 /* icon_camera@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_camera@2x.png"; sourceTree = "<group>"; };
-		368324FAE87D9B3473F2538EE83544EF /* Canvas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
-		37A60CE4B530CFD21C90642EF9FF50C3 /* Pods-NXDrawKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NXDrawKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3917A50EB224EEDBC66971700D698782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		39992B3451045CCDE78727065EDC3F97 /* icon_undo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_undo@3x.png"; sourceTree = "<group>"; };
-		3B7579A3DB85BED57B300CDBAE756CE0 /* icon_eraser@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_eraser@3x.png"; sourceTree = "<group>"; };
+		3CC44B6618E78CE6029FE6C93B8C1B9A /* Brush.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Brush.swift; path = NXDrawKit/Classes/Brush.swift; sourceTree = "<group>"; };
 		41D3DF1D271E33D7EA0B959172C3F7A0 /* RSKInternalUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKInternalUtility.m; path = RSKImageCropper/RSKInternalUtility.m; sourceTree = "<group>"; };
-		46D50C28CD971D136ABE2E7187B1F81D /* NXDrawKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NXDrawKit.modulemap; sourceTree = "<group>"; };
-		4C408EEB5678B0F9375A3C35F4AF4406 /* Pods-NXDrawKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NXDrawKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4C6E49761A4DFBB90E6A18810532EC3C /* Pods-NXDrawKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NXDrawKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4FF7C7603FB85F2F1DC6A11C090F4FE4 /* ResourceBundle-NXDrawKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NXDrawKit-Info.plist"; sourceTree = "<group>"; };
-		538239432CAEF575A0E8597F122DA3FA /* Pods-NXDrawKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NXDrawKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5509A0C1DA5CD3E5C692FB88CF11955A /* Pods-NXDrawKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NXDrawKit_Example.modulemap"; sourceTree = "<group>"; };
-		59894ACD30B462E0A002C2A33C3CD91F /* Pods-NXDrawKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NXDrawKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		41D85309576602043700424C824B49C7 /* icon_redo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_redo@3x.png"; path = "NXDrawKit/Assets/icon_redo@3x.png"; sourceTree = "<group>"; };
+		48507146D3445DF0B6B2E7347624BBDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4AA30D39744B1C00359D0C10938A3A70 /* icon_redo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_redo.png; path = NXDrawKit/Assets/icon_redo.png; sourceTree = "<group>"; };
+		4E73648DBE1443BEE73E7B67D966D7A4 /* RSKImageCropper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSKImageCropper.xcconfig; sourceTree = "<group>"; };
+		4FD84C1213DC769ABAEE4EF04522A23C /* Pods-NXDrawKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NXDrawKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		535EDD5C976DAE9DAB9332F33CFDD51D /* NXDrawKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NXDrawKit-prefix.pch"; sourceTree = "<group>"; };
 		5A1A569B42DCB8D90A811229B40F4F9C /* UIImage+RSKImageCropper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RSKImageCropper.m"; path = "RSKImageCropper/UIImage+RSKImageCropper.m"; sourceTree = "<group>"; };
-		5CA5FFE0F79C9FD78AD3BF8EE56BDB9F /* icon_redo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_redo@2x.png"; sourceTree = "<group>"; };
-		5DF35FA5F6273F19F81F26092D701117 /* Pods_NXDrawKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NXDrawKit_Example.framework; path = "Pods-NXDrawKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		631021A505BD67A497DDB941FF000134 /* icon_eraser@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_eraser@2x.png"; sourceTree = "<group>"; };
-		67225F50080E93A0073E94318E99A46E /* Pods-NXDrawKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NXDrawKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6766E0A867A6B53C46676BA7A00CE546 /* icon_undo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_undo.png; sourceTree = "<group>"; };
-		6A2238EC2CC2DC66C32E004CFDA7D844 /* ToolBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToolBar.swift; sourceTree = "<group>"; };
+		5ACC586E2E7FA966C3A93D17ACCE6F97 /* icon_undo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_undo@2x.png"; path = "NXDrawKit/Assets/icon_undo@2x.png"; sourceTree = "<group>"; };
+		62B7367CC91B0FE368CA87B2CFB2F432 /* icon_eraser@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_eraser@3x.png"; path = "NXDrawKit/Assets/icon_eraser@3x.png"; sourceTree = "<group>"; };
+		6476230B53890344C940654AD7492361 /* Pods-NXDrawKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NXDrawKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		66DD2EF08724AD601C3623EB706B6966 /* NXDrawKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NXDrawKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F367959ED648CEB38FA8652A736A238 /* icon_camera.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_camera.png; path = NXDrawKit/Assets/icon_camera.png; sourceTree = "<group>"; };
+		7163606E4A5340FA22A9206D3A2174EA /* NXDrawKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NXDrawKit-dummy.m"; sourceTree = "<group>"; };
 		7230BE46E634A1B17554C4E39EF6DF75 /* RSKTouchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKTouchView.h; path = RSKImageCropper/RSKTouchView.h; sourceTree = "<group>"; };
-		7405D6FA68E8431A288A4337AD959E48 /* UIImageExtractExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageExtractExtension.swift; sourceTree = "<group>"; };
+		7348A7940E657F8E3C1087BE4B4B9DE3 /* NXDrawKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXDrawKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D539D855D883C779A5EA0866FAE976 /* CircleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleButton.swift; path = NXDrawKit/Classes/CircleButton.swift; sourceTree = "<group>"; };
 		75F638939FBC3AFABBC825EB50A8B2FA /* RSKImageCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKImageCropViewController.m; path = RSKImageCropper/RSKImageCropViewController.m; sourceTree = "<group>"; };
-		76307416F042AC64F57DF2CE0BAE8AD3 /* NXDrawKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NXDrawKit.bundle; path = NXDrawKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A6EA2FA84638283D5B9B1F816031681 /* Pods-NXDrawKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NXDrawKit_Tests.modulemap"; sourceTree = "<group>"; };
+		7FF8528F7F4E763DB2F387938D6E6296 /* Pods-NXDrawKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NXDrawKit_Example.modulemap"; sourceTree = "<group>"; };
 		82CF56D00427E1572734D2237B188FE3 /* RSKImageScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKImageScrollView.m; path = RSKImageCropper/RSKImageScrollView.m; sourceTree = "<group>"; };
+		85D9EE65A3B78F0D4FAC4BC62FD1EA09 /* Pods-NXDrawKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NXDrawKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		89B93E8455A9442AB1F6AAEEBFA9DFCB /* RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKImageCropper.h; path = RSKImageCropper/RSKImageCropper.h; sourceTree = "<group>"; };
-		8B7D3F483D38D79D2C02C733EF2312F9 /* icon_eraser.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_eraser.png; sourceTree = "<group>"; };
-		8EB273C8605E61860E22C68598D6A3CE /* UIViewFrameExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewFrameExtension.swift; sourceTree = "<group>"; };
-		8FCFA10F72125F8B23691E31395565FA /* Pods-NXDrawKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NXDrawKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		90EDC4994894CD461F4F82C588CB1C9C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9152448B7312F20AE427996CEC2BCD7B /* Brush.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Brush.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93D6B5696380923FC78356D9A1F1D570 /* NXDrawKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NXDrawKit.xcconfig; sourceTree = "<group>"; };
+		8F4E00AD7701954F0FABA0B60E73E034 /* Pods-NXDrawKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NXDrawKit_Example-dummy.m"; sourceTree = "<group>"; };
+		9055554F67ADB0152CA9293CB7BC9248 /* RSKImageCropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSKImageCropper-dummy.m"; sourceTree = "<group>"; };
+		9174335755DCC1A8F75B149DFF8D7D47 /* Canvas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Canvas.swift; path = NXDrawKit/Classes/Canvas.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95647797A0A438052A9B5BAAEEB3853F /* Drawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Drawing.swift; path = NXDrawKit/Classes/Drawing.swift; sourceTree = "<group>"; };
 		9812F1122D62B845F8C61F8D64EC43E8 /* RSKImageScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKImageScrollView.h; path = RSKImageCropper/RSKImageScrollView.h; sourceTree = "<group>"; };
-		99AD446A9BDB15F0B3035CBC2937172E /* Pods-NXDrawKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NXDrawKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9AF879388367D8099F7E33AE69403AB3 /* NXDrawKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NXDrawKit.framework; path = NXDrawKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A714CED5FE4F8DF4FCFB8F4DCB0D4596 /* NXDrawKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NXDrawKit-umbrella.h"; sourceTree = "<group>"; };
-		A78A15ECB0107CF73F5DBA5D0320178E /* icon_undo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_undo@2x.png"; sourceTree = "<group>"; };
-		A94ED9E84822CB6E552220940EA6F09F /* Pods-NXDrawKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NXDrawKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		98D669964BE3C7F5FBA69BF73BA03B10 /* ResourceBundle-NXDrawKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NXDrawKit-Info.plist"; sourceTree = "<group>"; };
+		9EA93A9E93BC8A215FA6BC3F7139DF1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD2FB774871F657BAF893A2F6CC1BD2F /* RSKImageCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKImageCropViewController.h; path = RSKImageCropper/RSKImageCropViewController.h; sourceTree = "<group>"; };
-		B1E78B0247765E2FBAF78F1840ED47A0 /* RSKImageCropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSKImageCropper-prefix.pch"; sourceTree = "<group>"; };
+		B6739B586490A4CCEEFD3654FD28263D /* UIViewFrameExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewFrameExtension.swift; path = NXDrawKit/Classes/UIViewFrameExtension.swift; sourceTree = "<group>"; };
 		B6CCCBEEEE8F602FA4FAB2C39F1B1793 /* UIApplication+RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+RSKImageCropper.h"; path = "RSKImageCropper/UIApplication+RSKImageCropper.h"; sourceTree = "<group>"; };
-		B751B987E8B08E431082465A258582F7 /* Palette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
-		B9407EBE98D988905CEF20B1725E15C5 /* Pods-NXDrawKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NXDrawKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B976840BDAF8026859240BA570A6B990 /* Pods_NXDrawKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NXDrawKit_Tests.framework; path = "Pods-NXDrawKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE370117A29C46B86AABBB60D8168659 /* UIImage+RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RSKImageCropper.h"; path = "RSKImageCropper/UIImage+RSKImageCropper.h"; sourceTree = "<group>"; };
-		C236002E529018628B2B73F733C60CA8 /* icon_redo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_redo@3x.png"; sourceTree = "<group>"; };
-		D49DBF565B4AFBCD612E8AD3E92466A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4D9F09182DEBA484BC9A0C4AF474BB9 /* Pods-NXDrawKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NXDrawKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BEA824C2B3CD8CF65876E3298A8DA3AE /* Pods-NXDrawKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NXDrawKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C650E63ABE520E5887A5391F0E6D0EAB /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = NXDrawKit/Classes/Session.swift; sourceTree = "<group>"; };
+		C6D3A24D9708002573CC6DB3EAC3C1E4 /* NXDrawKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NXDrawKit-umbrella.h"; sourceTree = "<group>"; };
+		C8633499BB597A06BB83743F73497AA9 /* icon_redo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_redo@2x.png"; path = "NXDrawKit/Assets/icon_redo@2x.png"; sourceTree = "<group>"; };
+		CAC7A08F00D497762ECE29EB94FC5BF3 /* icon_eraser@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_eraser@2x.png"; path = "NXDrawKit/Assets/icon_eraser@2x.png"; sourceTree = "<group>"; };
+		CE5A9A6C86E044F6D24C3A261F055933 /* icon_undo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_undo.png; path = NXDrawKit/Assets/icon_undo.png; sourceTree = "<group>"; };
+		D142EBBFA0F4DFF4D9096CE56BAE8AF8 /* icon_undo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_undo@3x.png"; path = "NXDrawKit/Assets/icon_undo@3x.png"; sourceTree = "<group>"; };
+		D42CF7FA562B1426B8B75342F8C38A2A /* Palette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Palette.swift; path = NXDrawKit/Classes/Palette.swift; sourceTree = "<group>"; };
 		D64D9C3FF4F7F5345FCE4CCDABEAE773 /* RSKImageCropViewController+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RSKImageCropViewController+Protected.h"; path = "RSKImageCropper/RSKImageCropViewController+Protected.h"; sourceTree = "<group>"; };
-		E2A674086B500281A533896810AF79DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6DE50016869C68A112FCCDA02F1DA0C /* NXDrawKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NXDrawKit-prefix.pch"; sourceTree = "<group>"; };
+		D7202A7F482AC2295A032C4ECDD0423F /* RSKImageCropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSKImageCropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89C2786BCEBC49354A813A2A980F421 /* UIImageExtractExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtractExtension.swift; path = NXDrawKit/Classes/UIImageExtractExtension.swift; sourceTree = "<group>"; };
+		E9A3150BCBA8BDB935C83A00A53F874E /* NXDrawKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NXDrawKit.modulemap; sourceTree = "<group>"; };
+		EB778B0610E65D73A92DEA26DC0F2027 /* Pods-NXDrawKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NXDrawKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EB7D63244346552535B460E9A773A590 /* RSKInternalUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKInternalUtility.h; path = RSKImageCropper/RSKInternalUtility.h; sourceTree = "<group>"; };
-		EBFEE13D037DA8345759FAA701A0B008 /* RSKImageCropper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RSKImageCropper.modulemap; sourceTree = "<group>"; };
 		F21B1A97B7477503A5B29956675CC268 /* CGGeometry+RSKImageCropper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry+RSKImageCropper.m"; path = "RSKImageCropper/CGGeometry+RSKImageCropper.m"; sourceTree = "<group>"; };
-		F353641D057B902A335D510BB66FD3D3 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
-		F5831DD89269FDADD36EDA557A0C9A83 /* icon_redo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_redo.png; sourceTree = "<group>"; };
+		F8C653AE61D344F9E952A5702C4E0EF0 /* Pods-NXDrawKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NXDrawKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9421391D1F5B4D53F0479DE0E899325 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA494759FE749853A23CBB2360A2B3F7 /* icon_camera@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_camera@2x.png"; path = "NXDrawKit/Assets/icon_camera@2x.png"; sourceTree = "<group>"; };
 		FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		FCFAB37F1B6603BEC86921A1D0864045 /* RSKImageCropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSKImageCropper.framework; path = RSKImageCropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF2570E05A7C59F186D51FC7759C83CF /* RSKImageCropper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSKImageCropper.xcconfig; sourceTree = "<group>"; };
+		FDF4184738FF620CC0DB266953884509 /* NXDrawKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NXDrawKit.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,14 +183,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A51479A86C1AC01FE86C0A55F1D1C3B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2B7481A0911B3605F3872B524F5297A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E8831C66699664DFD1EB54C5C9E1299D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,6 +195,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03927D9D24CB7838516636465AD1E328 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9421391D1F5B4D53F0479DE0E899325 /* Info.plist */,
+				E9A3150BCBA8BDB935C83A00A53F874E /* NXDrawKit.modulemap */,
+				FDF4184738FF620CC0DB266953884509 /* NXDrawKit.xcconfig */,
+				7163606E4A5340FA22A9206D3A2174EA /* NXDrawKit-dummy.m */,
+				535EDD5C976DAE9DAB9332F33CFDD51D /* NXDrawKit-prefix.pch */,
+				C6D3A24D9708002573CC6DB3EAC3C1E4 /* NXDrawKit-umbrella.h */,
+				98D669964BE3C7F5FBA69BF73BA03B10 /* ResourceBundle-NXDrawKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NXDrawKit";
+			sourceTree = "<group>";
+		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,24 +218,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1C1AA2535F74C2158CBFD472D536415F /* Assets */ = {
+		2F73A1DB59C89A1434B787E6F23D8095 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				14453488DF99AC51674A926B991D9437 /* icon_camera.png */,
-				359B27E3BCF6BEDFDA98B8F66611EE21 /* icon_camera@2x.png */,
-				2538876E1BD56A1246F064F321258CCA /* icon_camera@3x.png */,
-				8B7D3F483D38D79D2C02C733EF2312F9 /* icon_eraser.png */,
-				631021A505BD67A497DDB941FF000134 /* icon_eraser@2x.png */,
-				3B7579A3DB85BED57B300CDBAE756CE0 /* icon_eraser@3x.png */,
-				F5831DD89269FDADD36EDA557A0C9A83 /* icon_redo.png */,
-				5CA5FFE0F79C9FD78AD3BF8EE56BDB9F /* icon_redo@2x.png */,
-				C236002E529018628B2B73F733C60CA8 /* icon_redo@3x.png */,
-				6766E0A867A6B53C46676BA7A00CE546 /* icon_undo.png */,
-				A78A15ECB0107CF73F5DBA5D0320178E /* icon_undo@2x.png */,
-				39992B3451045CCDE78727065EDC3F97 /* icon_undo@3x.png */,
+				6F367959ED648CEB38FA8652A736A238 /* icon_camera.png */,
+				FA494759FE749853A23CBB2360A2B3F7 /* icon_camera@2x.png */,
+				15F5C14B18895EE9278C1A06844963EC /* icon_camera@3x.png */,
+				131C02B2E2330B37F1D9643B0EC2B7C4 /* icon_eraser.png */,
+				CAC7A08F00D497762ECE29EB94FC5BF3 /* icon_eraser@2x.png */,
+				62B7367CC91B0FE368CA87B2CFB2F432 /* icon_eraser@3x.png */,
+				4AA30D39744B1C00359D0C10938A3A70 /* icon_redo.png */,
+				C8633499BB597A06BB83743F73497AA9 /* icon_redo@2x.png */,
+				41D85309576602043700424C824B49C7 /* icon_redo@3x.png */,
+				CE5A9A6C86E044F6D24C3A261F055933 /* icon_undo.png */,
+				5ACC586E2E7FA966C3A93D17ACCE6F97 /* icon_undo@2x.png */,
+				D142EBBFA0F4DFF4D9096CE56BAE8AF8 /* icon_undo@3x.png */,
 			);
-			name = Assets;
-			path = Assets;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		35389E327FEB573F3256AA9066D4C999 /* Resources */ = {
@@ -253,100 +248,64 @@
 		485D1185140F6640E7BF2E33D072506D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6FB17FA55F708540EE46A03856B875E1 /* Pods-NXDrawKit_Example */,
-				89F06C3C88E08807E403DB58DD08598B /* Pods-NXDrawKit_Tests */,
+				E2359A87A5A3BA4683FC24D10C89B01F /* Pods-NXDrawKit_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		48A2E631EE08AD8E0DA7177AA8A8ED3C /* NXDrawKit */ = {
+		5416E512A98F1DC0B7C38CCDF7245D05 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1C1AA2535F74C2158CBFD472D536415F /* Assets */,
+				0C0EE69986F5ED7ACC1252DDB9CC4C07 /* LICENSE */,
+				0EA253187D4C2329172C1BC806AB7D71 /* NXDrawKit.podspec */,
+				48507146D3445DF0B6B2E7347624BBDA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		556AC74DC117D75508D469A982565C59 /* NXDrawKit */ = {
+			isa = PBXGroup;
+			children = (
+				3CC44B6618E78CE6029FE6C93B8C1B9A /* Brush.swift */,
+				9174335755DCC1A8F75B149DFF8D7D47 /* Canvas.swift */,
+				75D539D855D883C779A5EA0866FAE976 /* CircleButton.swift */,
+				95647797A0A438052A9B5BAAEEB3853F /* Drawing.swift */,
+				D42CF7FA562B1426B8B75342F8C38A2A /* Palette.swift */,
+				C650E63ABE520E5887A5391F0E6D0EAB /* Session.swift */,
+				0B6FA5B0D09C0F32A38A0F35169A5B59 /* ToolBar.swift */,
+				E89C2786BCEBC49354A813A2A980F421 /* UIImageExtractExtension.swift */,
+				B6739B586490A4CCEEFD3654FD28263D /* UIViewFrameExtension.swift */,
+				5416E512A98F1DC0B7C38CCDF7245D05 /* Pod */,
+				2F73A1DB59C89A1434B787E6F23D8095 /* Resources */,
+				03927D9D24CB7838516636465AD1E328 /* Support Files */,
 			);
 			name = NXDrawKit;
-			path = NXDrawKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		6465FDBB67A2BFF88AD32A27438C5FE3 /* Development Pods */ = {
+		65C73306FE90F86D19B1A1FDBCD941FF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				96C8E0F728FB45CF1884F579066B9316 /* NXDrawKit */,
+				14A1E80F10CD6FCE96941040AC34E693 /* Info.plist */,
+				065C39F339ECC178EC7AF620E80D71A2 /* RSKImageCropper.modulemap */,
+				4E73648DBE1443BEE73E7B67D966D7A4 /* RSKImageCropper.xcconfig */,
+				9055554F67ADB0152CA9293CB7BC9248 /* RSKImageCropper-dummy.m */,
+				1742832797CE22D7FDA1DBD93457EF8C /* RSKImageCropper-prefix.pch */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6A45467EEC4E3963D22D409BE0841342 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9152448B7312F20AE427996CEC2BCD7B /* Brush.swift */,
-				368324FAE87D9B3473F2538EE83544EF /* Canvas.swift */,
-				218E628DB9B88E513228B873948F5CA1 /* CircleButton.swift */,
-				0FD6CC0FF7373DA645732B29D6FEF95F /* Drawing.swift */,
-				B751B987E8B08E431082465A258582F7 /* Palette.swift */,
-				F353641D057B902A335D510BB66FD3D3 /* Session.swift */,
-				6A2238EC2CC2DC66C32E004CFDA7D844 /* ToolBar.swift */,
-				7405D6FA68E8431A288A4337AD959E48 /* UIImageExtractExtension.swift */,
-				8EB273C8605E61860E22C68598D6A3CE /* UIViewFrameExtension.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		6FB17FA55F708540EE46A03856B875E1 /* Pods-NXDrawKit_Example */ = {
-			isa = PBXGroup;
-			children = (
-				E2A674086B500281A533896810AF79DC /* Info.plist */,
-				5509A0C1DA5CD3E5C692FB88CF11955A /* Pods-NXDrawKit_Example.modulemap */,
-				99AD446A9BDB15F0B3035CBC2937172E /* Pods-NXDrawKit_Example-acknowledgements.markdown */,
-				67225F50080E93A0073E94318E99A46E /* Pods-NXDrawKit_Example-acknowledgements.plist */,
-				2619E406981BA3A545C8805775E04820 /* Pods-NXDrawKit_Example-dummy.m */,
-				D4D9F09182DEBA484BC9A0C4AF474BB9 /* Pods-NXDrawKit_Example-frameworks.sh */,
-				25DD0853A97BB5B16E43E3E4C51A6F12 /* Pods-NXDrawKit_Example-resources.sh */,
-				0C2D3F01670BDD80A830264D58FCFE5B /* Pods-NXDrawKit_Example-umbrella.h */,
-				A94ED9E84822CB6E552220940EA6F09F /* Pods-NXDrawKit_Example.debug.xcconfig */,
-				4C6E49761A4DFBB90E6A18810532EC3C /* Pods-NXDrawKit_Example.release.xcconfig */,
-			);
-			name = "Pods-NXDrawKit_Example";
-			path = "Target Support Files/Pods-NXDrawKit_Example";
+			name = "Support Files";
+			path = "../Target Support Files/RSKImageCropper";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6465FDBB67A2BFF88AD32A27438C5FE3 /* Development Pods */,
+				A598F9212F0A7A2DF5CE40F2A3ACDA50 /* Development Pods */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				C1BBCF42914CB70D683970269B017EE3 /* Pods */,
-				E6EF2AA9D368911D26EB6DCC49B22CE8 /* Products */,
+				EF2D6C8A081551391623D220310CB3A7 /* Products */,
 				485D1185140F6640E7BF2E33D072506D /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7F08EEC65C2CA2253DE275F581984824 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				48A2E631EE08AD8E0DA7177AA8A8ED3C /* NXDrawKit */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		89F06C3C88E08807E403DB58DD08598B /* Pods-NXDrawKit_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				D49DBF565B4AFBCD612E8AD3E92466A6 /* Info.plist */,
-				7A6EA2FA84638283D5B9B1F816031681 /* Pods-NXDrawKit_Tests.modulemap */,
-				37A60CE4B530CFD21C90642EF9FF50C3 /* Pods-NXDrawKit_Tests-acknowledgements.markdown */,
-				538239432CAEF575A0E8597F122DA3FA /* Pods-NXDrawKit_Tests-acknowledgements.plist */,
-				8FCFA10F72125F8B23691E31395565FA /* Pods-NXDrawKit_Tests-dummy.m */,
-				59894ACD30B462E0A002C2A33C3CD91F /* Pods-NXDrawKit_Tests-frameworks.sh */,
-				1DC297C6D85459EAE8A367417130BFE8 /* Pods-NXDrawKit_Tests-resources.sh */,
-				4C408EEB5678B0F9375A3C35F4AF4406 /* Pods-NXDrawKit_Tests-umbrella.h */,
-				B9407EBE98D988905CEF20B1725E15C5 /* Pods-NXDrawKit_Tests.debug.xcconfig */,
-				04624B598009CCB57EF1AE1377B4CD7B /* Pods-NXDrawKit_Tests.release.xcconfig */,
-			);
-			name = "Pods-NXDrawKit_Tests";
-			path = "Target Support Files/Pods-NXDrawKit_Tests";
 			sourceTree = "<group>";
 		};
 		93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */ = {
@@ -357,21 +316,6 @@
 				3917A50EB224EEDBC66971700D698782 /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		95581EF39EB09F2980522C370BB920B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				028AC85DDEF91F295708B4C47BF54E8A /* Info.plist */,
-				46D50C28CD971D136ABE2E7187B1F81D /* NXDrawKit.modulemap */,
-				93D6B5696380923FC78356D9A1F1D570 /* NXDrawKit.xcconfig */,
-				0D4EAEA497CA4360310AE686C1CDACD1 /* NXDrawKit-dummy.m */,
-				E6DE50016869C68A112FCCDA02F1DA0C /* NXDrawKit-prefix.pch */,
-				A714CED5FE4F8DF4FCFB8F4DCB0D4596 /* NXDrawKit-umbrella.h */,
-				4FF7C7603FB85F2F1DC6A11C090F4FE4 /* ResourceBundle-NXDrawKit-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NXDrawKit";
 			sourceTree = "<group>";
 		};
 		95733793938015CB448F4A57F19DD390 /* RSKImageCropper */ = {
@@ -394,21 +338,17 @@
 				BE370117A29C46B86AABBB60D8168659 /* UIImage+RSKImageCropper.h */,
 				5A1A569B42DCB8D90A811229B40F4F9C /* UIImage+RSKImageCropper.m */,
 				35389E327FEB573F3256AA9066D4C999 /* Resources */,
-				DCBE0F9479FE1CDA98396AD79EE90193 /* Support Files */,
+				65C73306FE90F86D19B1A1FDBCD941FF /* Support Files */,
 			);
-			name = RSKImageCropper;
 			path = RSKImageCropper;
 			sourceTree = "<group>";
 		};
-		96C8E0F728FB45CF1884F579066B9316 /* NXDrawKit */ = {
+		A598F9212F0A7A2DF5CE40F2A3ACDA50 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E8699F5948A830F6171582B3B4B04C41 /* NXDrawKit */,
-				7F08EEC65C2CA2253DE275F581984824 /* Resources */,
-				95581EF39EB09F2980522C370BB920B0 /* Support Files */,
+				556AC74DC117D75508D469A982565C59 /* NXDrawKit */,
 			);
-			name = NXDrawKit;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C1BBCF42914CB70D683970269B017EE3 /* Pods */ = {
@@ -419,51 +359,38 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DCBE0F9479FE1CDA98396AD79EE90193 /* Support Files */ = {
+		E2359A87A5A3BA4683FC24D10C89B01F /* Pods-NXDrawKit_Example */ = {
 			isa = PBXGroup;
 			children = (
-				90EDC4994894CD461F4F82C588CB1C9C /* Info.plist */,
-				EBFEE13D037DA8345759FAA701A0B008 /* RSKImageCropper.modulemap */,
-				FF2570E05A7C59F186D51FC7759C83CF /* RSKImageCropper.xcconfig */,
-				0D239088A468E879EFC6B5E161B6DF0E /* RSKImageCropper-dummy.m */,
-				B1E78B0247765E2FBAF78F1840ED47A0 /* RSKImageCropper-prefix.pch */,
+				9EA93A9E93BC8A215FA6BC3F7139DF1E /* Info.plist */,
+				7FF8528F7F4E763DB2F387938D6E6296 /* Pods-NXDrawKit_Example.modulemap */,
+				F8C653AE61D344F9E952A5702C4E0EF0 /* Pods-NXDrawKit_Example-acknowledgements.markdown */,
+				4FD84C1213DC769ABAEE4EF04522A23C /* Pods-NXDrawKit_Example-acknowledgements.plist */,
+				8F4E00AD7701954F0FABA0B60E73E034 /* Pods-NXDrawKit_Example-dummy.m */,
+				85D9EE65A3B78F0D4FAC4BC62FD1EA09 /* Pods-NXDrawKit_Example-frameworks.sh */,
+				0B4965A71A75EBEFA6D145CAA3060EA4 /* Pods-NXDrawKit_Example-resources.sh */,
+				6476230B53890344C940654AD7492361 /* Pods-NXDrawKit_Example-umbrella.h */,
+				EB778B0610E65D73A92DEA26DC0F2027 /* Pods-NXDrawKit_Example.debug.xcconfig */,
+				BEA824C2B3CD8CF65876E3298A8DA3AE /* Pods-NXDrawKit_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/RSKImageCropper";
+			name = "Pods-NXDrawKit_Example";
+			path = "Target Support Files/Pods-NXDrawKit_Example";
 			sourceTree = "<group>";
 		};
-		E6EF2AA9D368911D26EB6DCC49B22CE8 /* Products */ = {
+		EF2D6C8A081551391623D220310CB3A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76307416F042AC64F57DF2CE0BAE8AD3 /* NXDrawKit.bundle */,
-				9AF879388367D8099F7E33AE69403AB3 /* NXDrawKit.framework */,
-				5DF35FA5F6273F19F81F26092D701117 /* Pods_NXDrawKit_Example.framework */,
-				B976840BDAF8026859240BA570A6B990 /* Pods_NXDrawKit_Tests.framework */,
-				FCFAB37F1B6603BEC86921A1D0864045 /* RSKImageCropper.framework */,
+				7348A7940E657F8E3C1087BE4B4B9DE3 /* NXDrawKit.bundle */,
+				66DD2EF08724AD601C3623EB706B6966 /* NXDrawKit.framework */,
+				27FEDDB03A7F13BA9B253EEB96636C12 /* Pods_NXDrawKit_Example.framework */,
+				D7202A7F482AC2295A032C4ECDD0423F /* RSKImageCropper.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E8699F5948A830F6171582B3B4B04C41 /* NXDrawKit */ = {
-			isa = PBXGroup;
-			children = (
-				6A45467EEC4E3963D22D409BE0841342 /* Classes */,
-			);
-			name = NXDrawKit;
-			path = NXDrawKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7173DEDC340E0E0787C533D7E444C5F0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6C148F11E6F29172F5A0C45C42DC1B3A /* Pods-NXDrawKit_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9631595004F91ECCB39FDED2D9FC7C0D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -503,7 +430,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1C04A52D7C0B424A768E108885F8C13 /* Build configuration list for PBXNativeTarget "NXDrawKit" */;
 			buildPhases = (
-				7270E575CE27DC7109FE8A9AFACA9B2C /* Sources */,
+				B0A0760B88D14CED89B459AF5E44014A /* Sources */,
 				E8831C66699664DFD1EB54C5C9E1299D /* Frameworks */,
 				BF7B98111792FD1FC2126745FDE83F6F /* Resources */,
 				9631595004F91ECCB39FDED2D9FC7C0D /* Headers */,
@@ -515,7 +442,7 @@
 			);
 			name = NXDrawKit;
 			productName = NXDrawKit;
-			productReference = 9AF879388367D8099F7E33AE69403AB3 /* NXDrawKit.framework */;
+			productReference = 66DD2EF08724AD601C3623EB706B6966 /* NXDrawKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		403FB3D2D6402E3651A8BD0C25FEB151 /* Pods-NXDrawKit_Example */ = {
@@ -534,7 +461,7 @@
 			);
 			name = "Pods-NXDrawKit_Example";
 			productName = "Pods-NXDrawKit_Example";
-			productReference = 5DF35FA5F6273F19F81F26092D701117 /* Pods_NXDrawKit_Example.framework */;
+			productReference = 27FEDDB03A7F13BA9B253EEB96636C12 /* Pods_NXDrawKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4A4023C4FBE739A6978D8CF5A4184CF9 /* NXDrawKit-NXDrawKit */ = {
@@ -543,7 +470,7 @@
 			buildPhases = (
 				5C3A04A97215DF5505C0A4291003D30B /* Sources */,
 				A4F4FADAFC521E8A698BE2258928A708 /* Frameworks */,
-				1A16EFFD89D1609CB4D9432410710911 /* Resources */,
+				B8F2E45E62416308E2743CCEB45640D6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -551,25 +478,8 @@
 			);
 			name = "NXDrawKit-NXDrawKit";
 			productName = "NXDrawKit-NXDrawKit";
-			productReference = 76307416F042AC64F57DF2CE0BAE8AD3 /* NXDrawKit.bundle */;
+			productReference = 7348A7940E657F8E3C1087BE4B4B9DE3 /* NXDrawKit.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		7459B1055AE776838A38A5987914E1AB /* Pods-NXDrawKit_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0D75D29D0E2062F0D5358C2D896DFCF /* Build configuration list for PBXNativeTarget "Pods-NXDrawKit_Tests" */;
-			buildPhases = (
-				92250FFB4F086F94F09F129E12B3298D /* Sources */,
-				A51479A86C1AC01FE86C0A55F1D1C3B1 /* Frameworks */,
-				7173DEDC340E0E0787C533D7E444C5F0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-NXDrawKit_Tests";
-			productName = "Pods-NXDrawKit_Tests";
-			productReference = B976840BDAF8026859240BA570A6B990 /* Pods_NXDrawKit_Tests.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		DD763F72FEF8F2EF94AC6A6EEDE71521 /* RSKImageCropper */ = {
 			isa = PBXNativeTarget;
@@ -586,7 +496,7 @@
 			);
 			name = RSKImageCropper;
 			productName = RSKImageCropper;
-			productReference = FCFAB37F1B6603BEC86921A1D0864045 /* RSKImageCropper.framework */;
+			productReference = D7202A7F482AC2295A032C4ECDD0423F /* RSKImageCropper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -595,50 +505,36 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					2BD702D846655072829B80CF039F8069 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E6EF2AA9D368911D26EB6DCC49B22CE8 /* Products */;
+			productRefGroup = EF2D6C8A081551391623D220310CB3A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2BD702D846655072829B80CF039F8069 /* NXDrawKit */,
 				4A4023C4FBE739A6978D8CF5A4184CF9 /* NXDrawKit-NXDrawKit */,
 				403FB3D2D6402E3651A8BD0C25FEB151 /* Pods-NXDrawKit_Example */,
-				7459B1055AE776838A38A5987914E1AB /* Pods-NXDrawKit_Tests */,
 				DD763F72FEF8F2EF94AC6A6EEDE71521 /* RSKImageCropper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A16EFFD89D1609CB4D9432410710911 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8E05EE1E8897C3A98A2516CFA7941E0 /* icon_camera.png in Resources */,
-				D668361FDBAA342113C5800ED1859B2B /* icon_camera@2x.png in Resources */,
-				2F4DC8934A8D30A1CB55738EED837152 /* icon_camera@3x.png in Resources */,
-				6B5D60D2A4F5B6B32951ECD480062D8E /* icon_eraser.png in Resources */,
-				C780C91403A661E1175A2E3105CEC3BE /* icon_eraser@2x.png in Resources */,
-				0C6514310B74E7A2F587D15AEB99DCD4 /* icon_eraser@3x.png in Resources */,
-				F4351ADAF83439BF860D92424FA2FF20 /* icon_redo.png in Resources */,
-				50D9715E331A427F7F2EF8B3CB443D11 /* icon_redo@2x.png in Resources */,
-				AA1BD207F803CB6DDE40C65B0EDEB5F6 /* icon_redo@3x.png in Resources */,
-				BA4933770AC2FCBB1EB4FAB0C56AAF5D /* icon_undo.png in Resources */,
-				E796BA38D67947C81FF628595B7E58E8 /* icon_undo@2x.png in Resources */,
-				40344A6436EC65514A0931B7973D478D /* icon_undo@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B6B5AB0953E08AB3B0450B213AAFC981 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -647,11 +543,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8F2E45E62416308E2743CCEB45640D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EA06D40CED24353D360C84483E9366 /* icon_camera.png in Resources */,
+				B598E04D6EEAFE60D500D86516DA268C /* icon_camera@2x.png in Resources */,
+				9F8ADD4D0B3C0DCC6DE13105AE3F0398 /* icon_camera@3x.png in Resources */,
+				80A8AACC1D8B3A5EC188CE92953AE9BB /* icon_eraser.png in Resources */,
+				3984D01F202D5DA5654E546AF2E97788 /* icon_eraser@2x.png in Resources */,
+				2728B29E6CA3C4BC30E4266D1C58CFC9 /* icon_eraser@3x.png in Resources */,
+				26A4F30DD251E0F74B3E9970F60867D8 /* icon_redo.png in Resources */,
+				9FFDED5A12D58BD4E789198E3AEA182A /* icon_redo@2x.png in Resources */,
+				938B2A4A097355181A9A87C0D8FF01D1 /* icon_redo@3x.png in Resources */,
+				F20FBB15083EE69D3DC2AF9508455450 /* icon_undo.png in Resources */,
+				78421F58DBDE4CE213ECC68C4B4E8F6C /* icon_undo@2x.png in Resources */,
+				518816CD4AD0666D48852F283C391121 /* icon_undo@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF7B98111792FD1FC2126745FDE83F6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6E4D11C87EA406FCF0B94ABEAD34974 /* NXDrawKit.bundle in Resources */,
+				84E6B61C51E37670179A83D17BB53709 /* NXDrawKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,23 +595,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7270E575CE27DC7109FE8A9AFACA9B2C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9BCFC2A1B2CE99DF632B0417D9AE6569 /* Brush.swift in Sources */,
-				33B9BACCC2529B6C8CD2C1BE2C2EDBFE /* Canvas.swift in Sources */,
-				1B84A4F5A1D2359F0506ED3D65C24283 /* CircleButton.swift in Sources */,
-				701ABCBDF80E55FDEBAE6C8E953FBEB5 /* Drawing.swift in Sources */,
-				D5981BDC79D6BE21F75960BFF5D8A034 /* NXDrawKit-dummy.m in Sources */,
-				B45869D25A977C21888250EE9BE26AAD /* Palette.swift in Sources */,
-				7D4E2744CA8D9DDF1DF7D74D2975B409 /* Session.swift in Sources */,
-				52EF59E36C96AA18E6CD4C83C40993F1 /* ToolBar.swift in Sources */,
-				EFCA85A14B25B60542AC8A7E9BD122E3 /* UIImageExtractExtension.swift in Sources */,
-				C672CABB77E95D8C811A18B42AC53F55 /* UIViewFrameExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80B5D28256F0BB4B76D0220F1653ADF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -705,11 +603,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92250FFB4F086F94F09F129E12B3298D /* Sources */ = {
+		B0A0760B88D14CED89B459AF5E44014A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1E8F30FB698F06C370195BE3C051C68 /* Pods-NXDrawKit_Tests-dummy.m in Sources */,
+				E1DDACABCABD6EB608C2F4164CF5E1E8 /* Brush.swift in Sources */,
+				0F50DC00C892857D68EDA9BB96048709 /* Canvas.swift in Sources */,
+				3D388607C356EFD7AEB04FFA1D0A0F48 /* CircleButton.swift in Sources */,
+				E6DD97B7257DBE78A5FC516D5E3134B6 /* Drawing.swift in Sources */,
+				58CC19B2785918249756C32D1878366D /* NXDrawKit-dummy.m in Sources */,
+				9C440742F0883ACA2FB066515F3E3B48 /* Palette.swift in Sources */,
+				A302BAB407EBC96DB1D1F1CDD27AAFD9 /* Session.swift in Sources */,
+				8A46CC9FA5809A33DF487AF4711FF030 /* ToolBar.swift in Sources */,
+				33E4C1424853BCBD8F3E05FFCC8EDDCF /* UIImageExtractExtension.swift in Sources */,
+				202B9986A211949E18BD6D2F4D16E4A3 /* UIViewFrameExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,415 +644,357 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		086EA547F77CB026D66C187962CF4D81 /* Debug */ = {
+		0B9331D3B0109C8E978C9BA5A0C74934 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9407EBE98D988905CEF20B1725E15C5 /* Pods-NXDrawKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = FDF4184738FF620CC0DB266953884509 /* NXDrawKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NXDrawKit_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/NXDrawKit/NXDrawKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NXDrawKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NXDrawKit_Tests/Pods-NXDrawKit_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NXDrawKit_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1856CE597A30DA0A495BC970A0D5CB66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93D6B5696380923FC78356D9A1F1D570 /* NXDrawKit.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NXDrawKit";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/NXDrawKit/ResourceBundle-NXDrawKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Target Support Files/NXDrawKit/NXDrawKit.modulemap";
+				PRODUCT_MODULE_NAME = NXDrawKit;
 				PRODUCT_NAME = NXDrawKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		251FB22B439A9C4BFAC51AEA3235288B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93D6B5696380923FC78356D9A1F1D570 /* NXDrawKit.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NXDrawKit";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/NXDrawKit/ResourceBundle-NXDrawKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = NXDrawKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		35151556271F6C7A9D563ABDCF1C8D39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93D6B5696380923FC78356D9A1F1D570 /* NXDrawKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NXDrawKit/NXDrawKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NXDrawKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NXDrawKit/NXDrawKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NXDrawKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		50F14AC39A5CC13F6C7EA71D57EF7019 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF2570E05A7C59F186D51FC7759C83CF /* RSKImageCropper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RSKImageCropper/RSKImageCropper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RSKImageCropper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RSKImageCropper/RSKImageCropper.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RSKImageCropper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		98D40F5BEA1178FB003EC37E51D873C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93D6B5696380923FC78356D9A1F1D570 /* NXDrawKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NXDrawKit/NXDrawKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NXDrawKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NXDrawKit/NXDrawKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = NXDrawKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9D67829910BF5BD94E3C5FED7ACCD907 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04624B598009CCB57EF1AE1377B4CD7B /* Pods-NXDrawKit_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NXDrawKit_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NXDrawKit_Tests/Pods-NXDrawKit_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NXDrawKit_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B03FF09EBEB5D14FEB8AAB866107DD2F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A94ED9E84822CB6E552220940EA6F09F /* Pods-NXDrawKit_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NXDrawKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NXDrawKit_Example/Pods-NXDrawKit_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NXDrawKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BB123A3920BDDE21860DB0D72E3084EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6E49761A4DFBB90E6A18810532EC3C /* Pods-NXDrawKit_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NXDrawKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NXDrawKit_Example/Pods-NXDrawKit_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NXDrawKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		F842EC17F319C96732F69DD9D5EAD407 /* Debug */ = {
+		20DBDAC1AE30563B1A1FFCD0306CBE48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF2570E05A7C59F186D51FC7759C83CF /* RSKImageCropper.xcconfig */;
+			baseConfigurationReference = BEA824C2B3CD8CF65876E3298A8DA3AE /* Pods-NXDrawKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NXDrawKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NXDrawKit_Example/Pods-NXDrawKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38BE0EC4601F61C4C5139B4C3397BCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF4184738FF620CC0DB266953884509 /* NXDrawKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NXDrawKit/NXDrawKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NXDrawKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NXDrawKit/NXDrawKit.modulemap";
+				PRODUCT_MODULE_NAME = NXDrawKit;
+				PRODUCT_NAME = NXDrawKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1E8266A6A60CEEF0BBDBDC569FAE891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E73648DBE1443BEE73E7B67D966D7A4 /* RSKImageCropper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/RSKImageCropper/RSKImageCropper-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RSKImageCropper/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RSKImageCropper/RSKImageCropper.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = RSKImageCropper;
 				PRODUCT_NAME = RSKImageCropper;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		C5EA193C8E2C741429310E90936FC526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF4184738FF620CC0DB266953884509 /* NXDrawKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NXDrawKit";
+				INFOPLIST_FILE = "Target Support Files/NXDrawKit/ResourceBundle-NXDrawKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NXDrawKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CE1E215113B656D4B7EBB3E06DB3C217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB778B0610E65D73A92DEA26DC0F2027 /* Pods-NXDrawKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NXDrawKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NXDrawKit_Example/Pods-NXDrawKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E10D8EED688641B0C9E60E1631A6AB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E73648DBE1443BEE73E7B67D966D7A4 /* RSKImageCropper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSKImageCropper/RSKImageCropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSKImageCropper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSKImageCropper/RSKImageCropper.modulemap";
+				PRODUCT_MODULE_NAME = RSKImageCropper;
+				PRODUCT_NAME = RSKImageCropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F172F5D2806DD20820376F26D2A3CFA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF4184738FF620CC0DB266953884509 /* NXDrawKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NXDrawKit";
+				INFOPLIST_FILE = "Target Support Files/NXDrawKit/ResourceBundle-NXDrawKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NXDrawKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1153,8 +1002,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C104F7F091290C3D1E248192F07FE689 /* Debug */,
-				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1162,8 +1011,8 @@
 		7F4BF020CCBA7545185AFC27D6371575 /* Build configuration list for PBXNativeTarget "Pods-NXDrawKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B03FF09EBEB5D14FEB8AAB866107DD2F /* Debug */,
-				BB123A3920BDDE21860DB0D72E3084EF /* Release */,
+				CE1E215113B656D4B7EBB3E06DB3C217 /* Debug */,
+				20DBDAC1AE30563B1A1FFCD0306CBE48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1171,8 +1020,8 @@
 		C1C04A52D7C0B424A768E108885F8C13 /* Build configuration list for PBXNativeTarget "NXDrawKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35151556271F6C7A9D563ABDCF1C8D39 /* Debug */,
-				98D40F5BEA1178FB003EC37E51D873C2 /* Release */,
+				38BE0EC4601F61C4C5139B4C3397BCDD /* Debug */,
+				0B9331D3B0109C8E978C9BA5A0C74934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1180,17 +1029,8 @@
 		C435811501676828B7016883541D62FE /* Build configuration list for PBXNativeTarget "RSKImageCropper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F842EC17F319C96732F69DD9D5EAD407 /* Debug */,
-				50F14AC39A5CC13F6C7EA71D57EF7019 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D0D75D29D0E2062F0D5358C2D896DFCF /* Build configuration list for PBXNativeTarget "Pods-NXDrawKit_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				086EA547F77CB026D66C187962CF4D81 /* Debug */,
-				9D67829910BF5BD94E3C5FED7ACCD907 /* Release */,
+				B1E8266A6A60CEEF0BBDBDC569FAE891 /* Debug */,
+				E10D8EED688641B0C9E60E1631A6AB8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1198,8 +1038,8 @@
 		F77F0C3F2AA172E82CECD8AB23E3A57C /* Build configuration list for PBXNativeTarget "NXDrawKit-NXDrawKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				251FB22B439A9C4BFAC51AEA3235288B /* Debug */,
-				1856CE597A30DA0A495BC970A0D5CB66 /* Release */,
+				F172F5D2806DD20820376F26D2A3CFA0 /* Debug */,
+				C5EA193C8E2C741429310E90936FC526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

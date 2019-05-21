@@ -8,26 +8,27 @@
 
 import UIKit
 
+
 public extension UIImage {
-    public func asPNGData() -> Data? {
-        return UIImagePNGRepresentation(self)
+    @objc func asPNGData() -> Data? {
+        return self.pngData()
     }
     
-    public func asJPEGData(_ quality: CGFloat) -> Data? {
-        return UIImageJPEGRepresentation(self, quality);
+    @objc func asJPEGData(_ quality: CGFloat) -> Data? {
+        return self.jpegData(compressionQuality: quality);
     }
     
-    public func asPNGImage() -> UIImage? {
+    @objc func asPNGImage() -> UIImage? {
         if let data = self.asPNGData() {
-            return UIImage.init(data: data)
+            return UIImage(data: data)
         }
         
         return nil
     }
     
-    public func asJPGImage(_ quality: CGFloat) -> UIImage? {
+    @objc func asJPGImage(_ quality: CGFloat) -> UIImage? {
         if let data = self.asJPEGData(quality) {
-            return UIImage.init(data: data)
+            return UIImage(data: data)
         }
         
         return nil
